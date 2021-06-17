@@ -1,0 +1,74 @@
+table th {
+  text-align: center;
+  background-color: #2788bb;
+  color: rgb(249, 249, 243);
+  padding: 4px 8px 4px 8px;
+}
+table,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 4px 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(65, 174, 143, 0.94);
+}
+
+th:nth-child(odd) {
+  background-color: rgba(90, 21, 113, 0.947);
+}
+
+body {
+  background-color: rgb(164, 172, 176);
+}
+
+.body {
+  background-color: rgb(66, 147, 182);
+  margin: auto;
+  font-family: rubik;
+  margin-top: 50px;
+
+  width: 90%;
+  height: auto;
+
+  border: 3px solid rgb(0, 0, 0);
+  padding: 30px;
+
+  box-shadow: 1px 1px 10px rgb(38, 41, 41), -1px -1px 10px rgb(33, 58, 54),
+    1px -1px 10px rgb(121, 200, 228), -1px 1px 10px rgb(230, 225, 225);
+}
+
+h1 {
+  color: #000000;
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+    2px -2px 0 rgba(222, 211, 211, 0.9);
+  opacity: 0.8;
+  border: 1px solid rgba(12, 71, 72, 0.1);
+  box-shadow: inset 0 2px 3px rgba(24, 1, 1, 0.3),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(2, 106, 87, 0.9);
+
+  text-align: center;
+}
+
+.movie {
+  text-align: left;
+  width: 100%;
+  color: rgb(41, 41, 11);
+  color: #000000;
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+    2px -2px 0 rgba(222, 211, 211, 0.9);
+  opacity: 0.8;
+}
+div img {
+  float: left;
+  margin: 0px 30px 0px 0px;
+  width: 8%;
+}
+.movieForm {
+  text-align: center;
+  position: relative;
+}
+P {
+  text-align: center;
+}
